@@ -11,6 +11,6 @@
       "progress-bar",
       "allure-cucumberjs/reporter:./test-results/allure.log"
     ],
-    "parallel": 2
+    "parallel": 1
   }
 }
