@@ -1,0 +1,16 @@
+{
+  "default": {
+    "paths": ["src/test/features/*.feature"],
+    "require": ["src/test/steps/*.js",
+                "src/hooks/hooks.js"],
+    "formatOptions": {
+      "snippetInterface": "async-await",
+      "resultsDir": "./test-results/allure-results"
+    },
+    "format" : [
+      "progress-bar",
+      "allure-cucumberjs/reporter:./test-results/allure.log"
+    ],
+    "parallel": 2
+  }
+}
